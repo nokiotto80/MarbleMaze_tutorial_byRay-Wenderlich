@@ -169,8 +169,7 @@ func testForGameOver() {
         
         var attesa: Double
         attesa = 30
-        
-      
+    
         ballNode.runAction(SCNAction.wait(duration: attesa)) {  //by Adriano corrected
             self.resetGame()
         }
